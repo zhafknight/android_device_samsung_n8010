@@ -17,6 +17,12 @@
 #
 # system.prop for n801x
 #
+
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.exynos4.refresh_rate_millihz=60000 \
+    ro.surface_flinger.enable_frame_rate_override=false
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	config.disable_atlas=true \
 	dalvik.vm.dexopt-data-only=1 \
