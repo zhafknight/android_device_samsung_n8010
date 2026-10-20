@@ -29,10 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.egl.destroy_after_detach=true
 
-# Camera API
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.camera.HAL3.enabled=1
-
 # RAM optimizations
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.sys.fw.trim_enable_memory=805306368 \
